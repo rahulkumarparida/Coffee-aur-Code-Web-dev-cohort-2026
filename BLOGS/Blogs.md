@@ -19,15 +19,15 @@ Each blog focuses on clear fundamentals, real workflow understanding, and practi
 | 8 | TCP vs UDP | Computer Networks | Jan 27, 2026 | Jan 27, 2026 | [Read](https://dev.to/rahul_kumarparida_6c16f5/tcp-vs-udp-1m6p) |
 | 9 | TCP Working (Communication) | Transport Layer | Jan 27, 2026 | Jan 28, 2026 | [Read](https://dev.to/rahul_kumarparida_6c16f5/tcp-working-communication-between-networks-14d9) |
 | 10 | Emmet for HTML | Frontend Tools | Jan 28, 2026 | Jan 28, 2026 | [Read](https://dev.to/rahul_kumarparida_6c16f5/emmet-for-html-2e0g) |
+| 11 | Understanding HTML , Tags, Elements(Basics) | Frontend Tools | Jan 28, 2026 | Jan 28, 2026 | [Read](https://dev.to/rahul_kumarparida_6c16f5/understanding-html-tags-elementsbasics-d54) |
 
 
 ## 📝 Blogs In Progress
 
 | # | Topic | Category | Created | Last Updated | Status |
 |---|-------|----------|---------|--------------|--------|
-| 1 | Understanding HTML , Tags, Elements(Basics) | Frontend Tools | Jan 28, 2026 | Jan 28, 2026 | Writing |
-| 2 | CSS selectors 101 | Frontend Tools | Jan 28, 2026 | Jan 28, 2026 | Writing |
-| 3 | Browser Internals (How HTML , CSS , JS  communicate inside a Browser?) | Browser Internals | Jan 29, 2026 | Jan 29, 2026 | Writing |
+| 1 | CSS selectors 101 | Frontend Tools | Jan 28, 2026 | Jan 28, 2026 | Writing |
+| 2 | Browser Internals (How HTML , CSS , JS  communicate inside a Browser?) | Browser Internals | Jan 29, 2026 | Jan 29, 2026 | Writing |
 
 
 ## 🎯 Focus Areas

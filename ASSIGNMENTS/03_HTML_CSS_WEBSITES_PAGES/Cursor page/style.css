@@ -6,11 +6,21 @@ html,body{
     background-color: black;
     color: white;
     font-family: sans-serif;
+    cursor: default;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+body::selection{
+    background-color: #ffffff6d;
+    color: black;
 }
 header{
     background-color: black;
     position: fixed;
     width: 100%;
+    top: 0%;
 }
 nav{
     display: flex;
@@ -58,15 +68,13 @@ nav{
     justify-content: flex-end;
     flex-direction: column;
     padding: 20px;
+    margin-top: 80px;
+}
+.windows,.headlinetext{
     
-    /* border: 1px solid white; */
+    margin-left: 50px;
 }
-.box{
-    margin-left: 70px;
-}
-.boxw{
-    margin-left: 90px;
-}
+
 .headlinetext{
     width: 50%;
     font-weight: 700;
@@ -269,7 +277,10 @@ height: 80px;
 }
 
 .Team{
-    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   
 }
 .Team>div:first-child{
@@ -325,6 +336,74 @@ height: 80px;
 }
 
 footer{
-    height: 400px;
+    height: 370px;
     background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navigationsection{
+    padding: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+.navigationcontainers{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.navigationcontainers>p{
+    margin: 5px;
+}
+
+.copyrightsection{
+    width: 95%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+}
+.copyright>p{
+    margin: 5px;
+}
+.btnss{
+    display: flex;
+
+}
+.btnss>div{
+    margin: 8px;
+}
+.mode{
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 18px;
+    background-color: #2b2a2a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.mode>span:first-child{
+    background-color: #151515;
+    border: 1px solid;
+    padding:3px 8px;
+    border-radius: 18px;
+}
+.modeimg{
+    height: 20px;
+}
+.lang{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #201f1f;
+background-color: #201f1f;
+border-radius: 20px;
+}
+.lang>span{
+    margin: 5px;
 }

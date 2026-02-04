@@ -345,3 +345,244 @@ main{
 .fourthcommapnies>img{
     width: 70%;
 }
+
+
+
+.customersknowledge{
+     margin-top: 40px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #08090a;
+    border-bottom: 1px solid #34343498;
+}
+.topcustomerdata{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.topcustomerdata>span:first-child{
+    font-size: smaller;
+    font-weight: 700;
+}
+.topcustomerdata>.title{
+    font-size: 40px;
+    font-weight: 600;
+}
+.topcustomerdata>.data{
+    
+    width: 80%;
+}
+
+.midcustomercards{
+    display: flex;
+    margin-top: 60px;
+}
+.customerCard{
+    width: 400px;
+    margin: 40px;
+}
+.customerCard>.image{
+height: 300px;
+width: 450px;
+
+}
+
+.customerCard>.zero{
+    background: url("./assets/perplexity.png") no-repeat ;
+
+}
+.customerCard>.one{
+    background: url("./assets/x.png") no-repeat ;
+
+}
+.customerCard>.two{
+    background: url("./assets/kalshi.png") no-repeat ;
+
+}
+
+.customerCard>.image{
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 25px 0;
+}
+.image>.logo{
+    height: 50px;
+}
+.readstory:hover{
+    color: #02e18f;
+    cursor: pointer;
+
+}
+.alldata{
+margin: 8px 0;
+margin-bottom: 25px;
+
+}
+.fa-chevron-right{
+    scale: 0.8;
+}
+
+
+.bottomcustomerdemo{
+   
+    margin-top: 60px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.documentdata{
+        display: flex;  
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+}
+.docdata{
+    width: 50%;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 28px;
+}
+.customerbtns{
+    display: flex;
+    margin: 25px;
+}
+.customerbtns>div{
+    margin: 20px;
+    border: 2px solid #5f5f5f;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.customerbtns>.getstarted{
+    background-color: white;
+    color: black;
+}
+.pricingbuilding{
+    display: flex;
+    margin-top: 15px;
+}
+.pricingbuilding>div{
+    padding: 80px;
+}
+
+.pricingdata{
+    margin-top: 35px;
+}
+.pricinglargedata{
+
+    margin: 15px 0;
+    font-size: larger;
+}
+.pricestory{
+    margin-top: 25px;
+}
+.line{
+    border: 1px solid #55555546;
+    width: 0%;
+    padding: 0;
+    margin: 45px;
+}
+
+
+
+
+footer{
+    padding: 0 90px;
+    background-color: #151616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 75%;
+    border: 1px solid #2a2a2a;
+    padding: 50px 0;
+    height: 100%;
+}
+.topfooter{
+    padding: 15px 13px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #2a2a2a;
+}
+.socials>i{
+    scale: 1.5;
+    margin: 5px;
+    color: gray;
+}
+.socials>i:hover{
+    color: #bdbdbd;
+}
+
+
+.navigationsection{
+    padding: 25px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #2a2a2a;
+}
+.navigationcontainers{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.navigationcontainers>p{
+    margin: 8px;
+}
+.profession{
+    color: gray;
+    font-weight: 600;
+}
+.backedby{
+    font-weight: 600;
+    padding: 40px ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #2a2a2a;
+}
+.backedby>img{
+    height: 80px;
+}
+.lowerfooter{
+    padding: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.system{
+    padding: 3px 13px;
+    width: max-content;
+    border-radius: 18px;
+    background-color: #8080809a;
+}
+.system>.readstory{
+    color:#24d4d4;
+}
+.mode{
+    
+    border: 1px solid #8080809a;
+    border-radius: 20px;
+    background-color: #5f5f5f75;
+}
+.mode>i{
+    color: #d5d5d5;
+    padding: 5px 15px;
+}
+.mode>i:first-child{
+    color: white;
+     border-radius: 20px;
+    border: 1px solid gray ;
+    background-color:  #0c0c0c;
+}

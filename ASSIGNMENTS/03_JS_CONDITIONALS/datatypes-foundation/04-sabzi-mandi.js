@@ -1,0 +1,103 @@
+/**
+ * 🥬 Sabzi Mandi Shopping Cart - Array Basics
+ *
+ * Amma sabzi mandi gayi hain. Unka shopping cart (array) hai.
+ * Items add karna, remove karna, check karna — sab array basic methods se.
+ * Tu Amma ka digital thela bana!
+ *
+ * Methods to explore: .push(), .pop(), .unshift(), .indexOf(),
+ *   .includes(), .length, .concat(), Array.isArray()
+ *
+ * Functions:
+ *
+ *   1. addToCart(cart, item)
+ *      - .push() se item ko cart ke end mein add karo
+ *      - Return: new cart length (push returns this automatically)
+ *      - Agar cart Array nahi hai (Array.isArray use karo), return -1
+ *      - Agar item empty string hai ya string nahi hai, return cart.length without adding
+ *      - Example: addToCart(["tamatar", "pyaaz"], "mirchi") => 3
+ *
+ *   2. addUrgentItem(cart, item)
+ *      - .unshift() se item ko cart ke BEGINNING mein add karo (pehle khareedna hai!)
+ *      - Return: updated cart array
+ *      - Agar cart not array, return []
+ *      - Agar item valid string nahi hai, return cart unchanged
+ *      - Example: addUrgentItem(["pyaaz", "mirchi"], "dhaniya") => ["dhaniya", "pyaaz", "mirchi"]
+ *
+ *   3. removeLastItem(cart)
+ *      - .pop() se last sabzi remove karo
+ *      - Return: the removed item
+ *      - Agar cart not array ya empty hai, return undefined
+ *      - Example: removeLastItem(["tamatar", "pyaaz", "mirchi"]) => "mirchi"
+ *
+ *   4. isInCart(cart, item)
+ *      - .includes() se check karo ki item cart mein hai ya nahi
+ *      - Agar cart not array, return false
+ *      - Example: isInCart(["tamatar", "pyaaz"], "pyaaz") => true
+ *      - Example: isInCart(["tamatar", "pyaaz"], "mirchi") => false
+ *
+ *   5. mergeCarts(cart1, cart2)
+ *      - .concat() se do carts ko combine karo
+ *      - Return: new merged array
+ *      - Agar koi bhi array nahi hai, usse empty array [] maan lo
+ *      - Example: mergeCarts(["tamatar"], ["mirchi", "adrak"]) => ["tamatar", "mirchi", "adrak"]
+ *
+ * @example
+ *   addToCart(["tamatar", "pyaaz"], "mirchi")        // => 3
+ *   addUrgentItem(["pyaaz"], "dhaniya")              // => ["dhaniya", "pyaaz"]
+ *   removeLastItem(["tamatar", "pyaaz", "mirchi"])   // => "mirchi"
+ */
+export function addToCart(cart, item) {
+  if (Array.isArray(cart) ) {
+    if (typeof item == "string" && item.length > 0 ) {
+      cart.push(item)
+      return cart.length
+    }
+
+    return cart.length
+  }
+  return -1
+}
+
+
+export function addUrgentItem(cart, item) {
+    if (Array.isArray(cart) ) {
+    if (typeof item == "string" && item.length > 0 ) {
+      cart.unshift(item)
+      return cart
+    }
+
+    return cart
+  }
+  return []
+}
+
+export function removeLastItem(cart) {
+     if (Array.isArray(cart) && cart.length > 0) {
+      
+      
+  
+    return cart.pop()
+  }
+  return undefined
+}
+
+
+export function isInCart(cart, item) {
+      if (Array.isArray(cart) ) {
+    if (typeof item == "string" && item.length > 0 ) {
+      
+      return cart.includes(item)
+    }
+
+    return false
+  }
+  return false
+}
+
+export function mergeCarts(cart1, cart2) {
+      let c1 = Array.isArray(cart1)?cart1:[]
+      let c2 = Array.isArray(cart2)?cart2:[]
+      return c1.concat(c2)
+
+}
